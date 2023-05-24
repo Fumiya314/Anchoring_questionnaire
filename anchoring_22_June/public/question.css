@@ -1,0 +1,51 @@
+h1, p{
+    text-align: center;
+}
+#overview{
+    display: none;
+    font-size: 250%;
+    padding-top: 30px;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+#tel_section{
+    display: none;
+
+    font-size: 250%;
+    padding-top: 50px;
+    text-align: center;
+}
+#question{
+    display: none;
+    font-size: 250%;
+    padding-top: 50px;
+    text-align: center;
+}
+#end_section{
+    display: none;
+    font-size: 250%;
+    padding-top: 50px;
+    text-align: center;
+}
+#sentence{
+    padding-bottom: 10px;
+}
+#anchor{
+    padding-bottom: 10px;
+}
+#box{
+    padding-bottom: 10px;
+}
+#unit{
+    display: inline-block;
+}
+button{
+    font-size: 100%;
+    width: 9em;
+    height: 3em;
+}
+
+input{
+    font-size: 170%;
+}
