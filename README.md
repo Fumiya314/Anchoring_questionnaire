@@ -1,0 +1,2 @@
+# Anchoring_questionnaire
+アンカリングモデルで使用するデータのためのアンケート
