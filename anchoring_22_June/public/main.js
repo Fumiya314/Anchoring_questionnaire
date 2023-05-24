@@ -1,3 +1,6 @@
+//genAnchorのintを修正した
+//2023年5月24日 komatsu
+
 // DBの接続
 const database = firebase.database();
 
@@ -151,8 +154,12 @@ function genAnchor(flag, min, max){
     return anchor;
 
     //intのアンカー
+    //ここを修正した
   } else if (flag == 'int'){
-    anchor = Math.floor(Math.random() * (max - min) + min);
+    max = Math.log(max);
+    min = Math.log(min);
+    tmp = Math.random() * (max - min) + min;
+    anchor = Math.floor(Math.exp(tmp));
     anchor = Truncate(anchor);
     return anchor;
   }
