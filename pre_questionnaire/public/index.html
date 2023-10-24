@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <link rel="stylesheet" href="question.css">
+        <meta charset="utf-8">
+        <title>研究アンケート</title>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    </head>
+    <body>
+        <canvas id="scatterChart" width="400" height="400"></canvas>
+
+        <div id="overview">
+            
+                <h1>アンケート</h1>
+                <h3>【全30問 約10分程度】<br>
+                    回答者の中から抽選で100名に<br>
+                    <br><br></h3>
+                本アンケートは 
+                工学院大学情報科学科数理解析研究室による研究です。
+                アンケートや結果の解析情報は、外部に一切提供しません。
+                また、研究においては個人が特定できない形でのみ利用します。
+                ご不明な点がありましたら、
+                までお問い合わせください。<br><br>
+                <h3>時間制限はありませんが、<br>
+                検索をしたり、<br>
+                人に聞いたりせず<br>
+                回答してください。<br>
+                <br>
+                回答していただける方は、<br>
+                「次へ」のボタンを押してください。</h3>
+ 
+
+                <div id="overview_button"><button type="button">次へ</button></div>
+                <br>
+            
+        </div>
+               
+                    <div id="tel_section">
+                            <h1>必要事項入力</h1>
+                            電話番号の入力をお願いします。<br>
+                            <div id="box">
+                                <input type="text" id="tel_number"></input>
+                            </div>
+                            <br>
+                            <br><br>
+            
+                        <div id="start_button"><button type="button">アンケート開始</button></a></div>
+                    </div>
+                    <div id="question">
+                        <div id="sentence"></div>
+                        <div id="box">
+                            <input type="text" id="inbox"></input><div id="unit"></div>
+                        </div>
+                        <div id="button"><button type="button">次へ</button></div>
+                    </div>
+                    <div id="end_section">
+                        <h1>アンケートご協力ありがとうございました</h1>
+                        <p>このまま画面を閉じていただいて構いません</p>
+                        <p>後日当選された方にはご連絡いたします</p>
+                    </div>
+            
+                    <!-- <script src="/__/firebase/9.6.11/firebase-app-compat.js"></script>
+                    <script src="/__/firebase/9.6.11/firebase-auth-compat.js"></script>
+                    <script src="/__/firebase/9.6.11/firebase-database-compat.js"></script>
+                    <script src="/__/firebase/init.js?useEmulator=true"></script> -->
+                    <script src="main.js"></script>
+                    <script src="genAnchor.js"></script>
+                   
+                
+           
+                    
+            
+           
+            
+        </div>
+    </body>
+</html>
